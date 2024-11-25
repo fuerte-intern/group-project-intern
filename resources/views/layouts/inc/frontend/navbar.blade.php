@@ -4,69 +4,6 @@
 <!-- Include Material Design Icons -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
 
-<style>
-  /* Ensure the navbar container uses flexbox */
-  .navbar .container-fluid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Center the search bar within the available space */
-  .search-container {
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-    position: relative;
-  }
-
-  /* Align the logo to the left corner */
-  .navbar-logo {
-    max-width: 200px; /* Set a max width for the logo */
-    width: auto;
-  }
-
-  /* Style for the search bar and input field */
-  .search-container input {
-    width: 0;
-    opacity: 0;
-    transition: width 0.3s ease, opacity 0.3s ease;
-    padding: 10px;
-  }
-
-  .search-container.active input {
-    width: 200px;
-    opacity: 1;
-  }
-
-  /* Optional: Style for the search icon */
-  .search-container .material-icons {
-    cursor: pointer;
-    align-items: center;
-  }
-
-  /* Style for the sub-navbar */
-  .navbar-nav {
-    display: flex;
-    width: 100%; /* Make navbar-nav take up full width */
-  }
-
-  .navbar-nav .left-group {
-    display: flex;
-    justify-content: flex-start;
-    flex-grow: 1;
-  }
-
-  .navbar-nav .right-group {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .navbar-nav .nav-item {
-    padding: 0 15px; /* Adjust padding to space out items further if necessary */
-  }
-</style>
-
 <!-- Main Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -78,9 +15,9 @@
     
     <!-- Search Bar (Centered) -->
     <div class="search-container px-3">
-      <form class="d-flex w-50" role="search">
+      <form class="d-flex w-100" role="search">
         <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
-        <span class="material-icons d-flex" onclick="toggleSearch()">search</span> <!-- Search Icon -->
+        <span class="material-icons d-flex">search</span> <!-- Search Icon -->
       </form>
     </div>
     
@@ -139,9 +76,4 @@
   </div>
 </nav>
 
-<script>
-  function toggleSearch() {
-    const searchContainer = document.querySelector('.search-container');
-    searchContainer.classList.toggle('active');
-  }
-</script>
+

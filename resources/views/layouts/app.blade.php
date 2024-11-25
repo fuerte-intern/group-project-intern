@@ -44,7 +44,7 @@
         
         @include('layouts.inc.frontend.navbar')
         
-            <main class="py-4">
+            <main>
                 @yield('content')
             </main>
 
@@ -53,6 +53,13 @@
     <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    
+    <!-- Include Font Awesome (for icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <!-- Include Material Design Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
+    
 
     {{-- <script>
         window.addEventListener('message', event => {
