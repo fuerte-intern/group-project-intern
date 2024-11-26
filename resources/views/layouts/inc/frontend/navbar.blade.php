@@ -65,10 +65,10 @@
         <!-- Right Group - Space items on the right -->
         <div class="right-group">
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="/about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="/contact-us">Contact Us</a>
           </li>
         </div>
       </ul>
