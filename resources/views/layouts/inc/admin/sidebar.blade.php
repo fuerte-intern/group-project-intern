@@ -106,7 +106,7 @@
                 <p>Ready to use froms & tables </p>
               </div>
             </li>
-            <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="file-text"></i><span>Forms</span></a>
+            <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="file-text"></i><span>Brand</span></a>
               <ul class="sidebar-submenu">
                 <li><a class="submenu-title" href="#">Form Controls<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
                   <ul class="nav-sub-childmenu submenu-content">
